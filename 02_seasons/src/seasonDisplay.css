@@ -1,0 +1,54 @@
+
+.season-display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.season-display p {
+	line-height: 1.6;
+}
+
+.container-fluid {
+	max-width: 1440px;
+}
+
+.mobile-wrapper {
+	height: 600px;
+}
+
+.mobile-wrapper.winter {
+	background-image: url('images/winterbg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mobile-wrapper.summer {
+	background-image: url('images/summerbg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.appname.winter {
+	color: #548DAD;
+}
+
+.appname.summer {
+	color: #D87936;
+}
+
+.text-wrapper {
+	border-left: 1px solid lightgray;
+}
+
+.seasonname {
+	font-size: 50px;
+}
+
+.display-1 {
+	font-size: 40px;
+	font-weight: light;
+}
